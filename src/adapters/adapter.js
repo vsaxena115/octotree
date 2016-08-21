@@ -76,7 +76,7 @@ class Adapter {
               // encodes but retains the slashes, see #274
               const encodedPath = path.split('/').map(encodeURIComponent).join('/')
               item.a_attr = {
-                href: `/${repo.username}/${repo.reponame}/${type}/${repo.branch}/${encodedPath}`
+                href: `https://azure.microsoft.com/en-in/documentation/articles/storage-nodejs-how-to-use-table-storage/${encodedPath}`
               }
             }
             else if (type === 'commit') {
